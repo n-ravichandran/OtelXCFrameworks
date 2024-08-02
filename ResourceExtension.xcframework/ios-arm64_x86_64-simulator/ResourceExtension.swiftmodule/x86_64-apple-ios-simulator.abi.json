@@ -1,0 +1,2432 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryApi",
+        "printedName": "OpenTelemetryApi",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplicationResourceProvider",
+        "printedName": "ApplicationResourceProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplicationResourceProvider",
+                "printedName": "ResourceExtension.ApplicationResourceProvider",
+                "usr": "s:17ResourceExtension011ApplicationA8ProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IApplicationDataSource",
+                "printedName": "any ResourceExtension.IApplicationDataSource",
+                "usr": "s:17ResourceExtension22IApplicationDataSourceP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension011ApplicationA8ProviderC6sourceAcA22IApplicationDataSource_p_tcfc",
+            "mangledName": "$s17ResourceExtension011ApplicationA8ProviderC6sourceAcA22IApplicationDataSource_p_tcfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeValue",
+                    "printedName": "OpenTelemetryApi.AttributeValue",
+                    "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension011ApplicationA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "mangledName": "$s17ResourceExtension011ApplicationA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "moduleName": "ResourceExtension",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributeValue",
+                        "printedName": "OpenTelemetryApi.AttributeValue",
+                        "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension011ApplicationA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "mangledName": "$s17ResourceExtension011ApplicationA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "moduleName": "ResourceExtension",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension011ApplicationA8ProviderC",
+        "mangledName": "$s17ResourceExtension011ApplicationA8ProviderC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17ResourceExtension0A8ProviderC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ResourceExtension.ResourceProvider"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApplicationDataSource",
+        "printedName": "ApplicationDataSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ApplicationDataSource",
+                "printedName": "ResourceExtension.ApplicationDataSource",
+                "usr": "s:17ResourceExtension21ApplicationDataSourceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension21ApplicationDataSourceCACycfc",
+            "mangledName": "$s17ResourceExtension21ApplicationDataSourceCACycfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension21ApplicationDataSourceC4nameSSSgvp",
+            "mangledName": "$s17ResourceExtension21ApplicationDataSourceC4nameSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension21ApplicationDataSourceC4nameSSSgvg",
+                "mangledName": "$s17ResourceExtension21ApplicationDataSourceC4nameSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension21ApplicationDataSourceC10identifierSSSgvp",
+            "mangledName": "$s17ResourceExtension21ApplicationDataSourceC10identifierSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension21ApplicationDataSourceC10identifierSSSgvg",
+                "mangledName": "$s17ResourceExtension21ApplicationDataSourceC10identifierSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension21ApplicationDataSourceC7versionSSSgvp",
+            "mangledName": "$s17ResourceExtension21ApplicationDataSourceC7versionSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension21ApplicationDataSourceC7versionSSSgvg",
+                "mangledName": "$s17ResourceExtension21ApplicationDataSourceC7versionSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "build",
+            "printedName": "build",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension21ApplicationDataSourceC5buildSSSgvp",
+            "mangledName": "$s17ResourceExtension21ApplicationDataSourceC5buildSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension21ApplicationDataSourceC5buildSSSgvg",
+                "mangledName": "$s17ResourceExtension21ApplicationDataSourceC5buildSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension21ApplicationDataSourceC",
+        "mangledName": "$s17ResourceExtension21ApplicationDataSourceC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IApplicationDataSource",
+            "printedName": "IApplicationDataSource",
+            "usr": "s:17ResourceExtension22IApplicationDataSourceP",
+            "mangledName": "$s17ResourceExtension22IApplicationDataSourceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceDataSource",
+        "printedName": "DeviceDataSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceDataSource",
+                "printedName": "ResourceExtension.DeviceDataSource",
+                "usr": "s:17ResourceExtension16DeviceDataSourceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension16DeviceDataSourceCACycfc",
+            "mangledName": "$s17ResourceExtension16DeviceDataSourceCACycfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension16DeviceDataSourceC5modelSSSgvp",
+            "mangledName": "$s17ResourceExtension16DeviceDataSourceC5modelSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension16DeviceDataSourceC5modelSSSgvg",
+                "mangledName": "$s17ResourceExtension16DeviceDataSourceC5modelSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension16DeviceDataSourceC10identifierSSSgvp",
+            "mangledName": "$s17ResourceExtension16DeviceDataSourceC10identifierSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension16DeviceDataSourceC10identifierSSSgvg",
+                "mangledName": "$s17ResourceExtension16DeviceDataSourceC10identifierSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension16DeviceDataSourceC",
+        "mangledName": "$s17ResourceExtension16DeviceDataSourceC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IDeviceDataSource",
+            "printedName": "IDeviceDataSource",
+            "usr": "s:17ResourceExtension17IDeviceDataSourceP",
+            "mangledName": "$s17ResourceExtension17IDeviceDataSourceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IApplicationDataSource",
+        "printedName": "IApplicationDataSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension22IApplicationDataSourceP4nameSSSgvp",
+            "mangledName": "$s17ResourceExtension22IApplicationDataSourceP4nameSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension22IApplicationDataSourceP4nameSSSgvg",
+                "mangledName": "$s17ResourceExtension22IApplicationDataSourceP4nameSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IApplicationDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IApplicationDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension22IApplicationDataSourceP10identifierSSSgvp",
+            "mangledName": "$s17ResourceExtension22IApplicationDataSourceP10identifierSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension22IApplicationDataSourceP10identifierSSSgvg",
+                "mangledName": "$s17ResourceExtension22IApplicationDataSourceP10identifierSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IApplicationDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IApplicationDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension22IApplicationDataSourceP7versionSSSgvp",
+            "mangledName": "$s17ResourceExtension22IApplicationDataSourceP7versionSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension22IApplicationDataSourceP7versionSSSgvg",
+                "mangledName": "$s17ResourceExtension22IApplicationDataSourceP7versionSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IApplicationDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IApplicationDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "build",
+            "printedName": "build",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension22IApplicationDataSourceP5buildSSSgvp",
+            "mangledName": "$s17ResourceExtension22IApplicationDataSourceP5buildSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension22IApplicationDataSourceP5buildSSSgvg",
+                "mangledName": "$s17ResourceExtension22IApplicationDataSourceP5buildSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IApplicationDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IApplicationDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ResourceExtension22IApplicationDataSourceP",
+        "mangledName": "$s17ResourceExtension22IApplicationDataSourceP",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IDeviceDataSource",
+        "printedName": "IDeviceDataSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "identifier",
+            "printedName": "identifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension17IDeviceDataSourceP10identifierSSSgvp",
+            "mangledName": "$s17ResourceExtension17IDeviceDataSourceP10identifierSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension17IDeviceDataSourceP10identifierSSSgvg",
+                "mangledName": "$s17ResourceExtension17IDeviceDataSourceP10identifierSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IDeviceDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IDeviceDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension17IDeviceDataSourceP5modelSSSgvp",
+            "mangledName": "$s17ResourceExtension17IDeviceDataSourceP5modelSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension17IDeviceDataSourceP5modelSSSgvg",
+                "mangledName": "$s17ResourceExtension17IDeviceDataSourceP5modelSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IDeviceDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IDeviceDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ResourceExtension17IDeviceDataSourceP",
+        "mangledName": "$s17ResourceExtension17IDeviceDataSourceP",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IOperatingSystemDataSource",
+        "printedName": "IOperatingSystemDataSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP4typeSSvp",
+            "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP4typeSSvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP4typeSSvg",
+                "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP4typeSSvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IOperatingSystemDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IOperatingSystemDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP11descriptionSSvp",
+            "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP11descriptionSSvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP11descriptionSSvg",
+                "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP11descriptionSSvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IOperatingSystemDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IOperatingSystemDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP4nameSSvp",
+            "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP4nameSSvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP4nameSSvg",
+                "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP4nameSSvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IOperatingSystemDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IOperatingSystemDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP7versionSSvp",
+            "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP7versionSSvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP7versionSSvg",
+                "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP7versionSSvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.IOperatingSystemDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.IOperatingSystemDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP",
+        "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ITelemetryDataSource",
+        "printedName": "ITelemetryDataSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension20ITelemetryDataSourceP7versionSSSgvp",
+            "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP7versionSSSgvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension20ITelemetryDataSourceP7versionSSSgvg",
+                "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP7versionSSSgvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.ITelemetryDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.ITelemetryDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension20ITelemetryDataSourceP4nameSSvp",
+            "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP4nameSSvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension20ITelemetryDataSourceP4nameSSvg",
+                "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP4nameSSvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.ITelemetryDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.ITelemetryDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension20ITelemetryDataSourceP8languageSSvp",
+            "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP8languageSSvp",
+            "moduleName": "ResourceExtension",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension20ITelemetryDataSourceP8languageSSvg",
+                "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP8languageSSvg",
+                "moduleName": "ResourceExtension",
+                "genericSig": "<τ_0_0 where τ_0_0 : ResourceExtension.ITelemetryDataSource>",
+                "sugared_genericSig": "<Self where Self : ResourceExtension.ITelemetryDataSource>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17ResourceExtension20ITelemetryDataSourceP",
+        "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OperatingSystemDataSource",
+        "printedName": "OperatingSystemDataSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OperatingSystemDataSource",
+                "printedName": "ResourceExtension.OperatingSystemDataSource",
+                "usr": "s:17ResourceExtension25OperatingSystemDataSourceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension25OperatingSystemDataSourceCACycfc",
+            "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceCACycfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension25OperatingSystemDataSourceC11descriptionSSvp",
+            "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC11descriptionSSvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension25OperatingSystemDataSourceC11descriptionSSvg",
+                "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC11descriptionSSvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension25OperatingSystemDataSourceC4typeSSvp",
+            "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC4typeSSvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension25OperatingSystemDataSourceC4typeSSvg",
+                "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC4typeSSvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension25OperatingSystemDataSourceC4nameSSvp",
+            "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC4nameSSvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension25OperatingSystemDataSourceC4nameSSvg",
+                "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC4nameSSvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension25OperatingSystemDataSourceC7versionSSvp",
+            "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC7versionSSvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension25OperatingSystemDataSourceC7versionSSvg",
+                "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC7versionSSvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension25OperatingSystemDataSourceC",
+        "mangledName": "$s17ResourceExtension25OperatingSystemDataSourceC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IOperatingSystemDataSource",
+            "printedName": "IOperatingSystemDataSource",
+            "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP",
+            "mangledName": "$s17ResourceExtension26IOperatingSystemDataSourceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TelemetryDataSource",
+        "printedName": "TelemetryDataSource",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryDataSource",
+                "printedName": "ResourceExtension.TelemetryDataSource",
+                "usr": "s:17ResourceExtension19TelemetryDataSourceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension19TelemetryDataSourceCACycfc",
+            "mangledName": "$s17ResourceExtension19TelemetryDataSourceCACycfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "language",
+            "printedName": "language",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension19TelemetryDataSourceC8languageSSvp",
+            "mangledName": "$s17ResourceExtension19TelemetryDataSourceC8languageSSvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension19TelemetryDataSourceC8languageSSvg",
+                "mangledName": "$s17ResourceExtension19TelemetryDataSourceC8languageSSvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension19TelemetryDataSourceC4nameSSvp",
+            "mangledName": "$s17ResourceExtension19TelemetryDataSourceC4nameSSvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension19TelemetryDataSourceC4nameSSvg",
+                "mangledName": "$s17ResourceExtension19TelemetryDataSourceC4nameSSvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension19TelemetryDataSourceC7versionSSSgvp",
+            "mangledName": "$s17ResourceExtension19TelemetryDataSourceC7versionSSSgvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension19TelemetryDataSourceC7versionSSSgvg",
+                "mangledName": "$s17ResourceExtension19TelemetryDataSourceC7versionSSSgvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension19TelemetryDataSourceC",
+        "mangledName": "$s17ResourceExtension19TelemetryDataSourceC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ITelemetryDataSource",
+            "printedName": "ITelemetryDataSource",
+            "usr": "s:17ResourceExtension20ITelemetryDataSourceP",
+            "mangledName": "$s17ResourceExtension20ITelemetryDataSourceP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DefaultResources",
+        "printedName": "DefaultResources",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DefaultResources",
+                "printedName": "ResourceExtension.DefaultResources",
+                "usr": "s:17ResourceExtension16DefaultResourcesC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension16DefaultResourcesCACycfc",
+            "mangledName": "$s17ResourceExtension16DefaultResourcesCACycfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Resource",
+                "printedName": "OpenTelemetrySdk.Resource",
+                "usr": "s:16OpenTelemetrySdk8ResourceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ResourceExtension16DefaultResourcesC3get16OpenTelemetrySdk0A0VyF",
+            "mangledName": "$s17ResourceExtension16DefaultResourcesC3get16OpenTelemetrySdk0A0VyF",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension16DefaultResourcesC",
+        "mangledName": "$s17ResourceExtension16DefaultResourcesC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryApi",
+        "printedName": "OpenTelemetryApi",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceResourceProvider",
+        "printedName": "DeviceResourceProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceResourceProvider",
+                "printedName": "ResourceExtension.DeviceResourceProvider",
+                "usr": "s:17ResourceExtension06DeviceA8ProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IDeviceDataSource",
+                "printedName": "any ResourceExtension.IDeviceDataSource",
+                "usr": "s:17ResourceExtension17IDeviceDataSourceP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension06DeviceA8ProviderC6sourceAcA17IDeviceDataSource_p_tcfc",
+            "mangledName": "$s17ResourceExtension06DeviceA8ProviderC6sourceAcA17IDeviceDataSource_p_tcfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeValue",
+                    "printedName": "OpenTelemetryApi.AttributeValue",
+                    "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension06DeviceA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "mangledName": "$s17ResourceExtension06DeviceA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "moduleName": "ResourceExtension",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributeValue",
+                        "printedName": "OpenTelemetryApi.AttributeValue",
+                        "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension06DeviceA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "mangledName": "$s17ResourceExtension06DeviceA8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "moduleName": "ResourceExtension",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension06DeviceA8ProviderC",
+        "mangledName": "$s17ResourceExtension06DeviceA8ProviderC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17ResourceExtension0A8ProviderC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ResourceExtension.ResourceProvider"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryApi",
+        "printedName": "OpenTelemetryApi",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OSResourceProvider",
+        "printedName": "OSResourceProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OSResourceProvider",
+                "printedName": "ResourceExtension.OSResourceProvider",
+                "usr": "s:17ResourceExtension18OSResourceProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IOperatingSystemDataSource",
+                "printedName": "any ResourceExtension.IOperatingSystemDataSource",
+                "usr": "s:17ResourceExtension26IOperatingSystemDataSourceP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension18OSResourceProviderC6sourceAcA26IOperatingSystemDataSource_p_tcfc",
+            "mangledName": "$s17ResourceExtension18OSResourceProviderC6sourceAcA26IOperatingSystemDataSource_p_tcfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeValue",
+                    "printedName": "OpenTelemetryApi.AttributeValue",
+                    "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension18OSResourceProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "mangledName": "$s17ResourceExtension18OSResourceProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "moduleName": "ResourceExtension",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributeValue",
+                        "printedName": "OpenTelemetryApi.AttributeValue",
+                        "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension18OSResourceProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "mangledName": "$s17ResourceExtension18OSResourceProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "moduleName": "ResourceExtension",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension18OSResourceProviderC",
+        "mangledName": "$s17ResourceExtension18OSResourceProviderC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17ResourceExtension0A8ProviderC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ResourceExtension.ResourceProvider"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryApi",
+        "printedName": "OpenTelemetryApi",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResourceProvider",
+        "printedName": "ResourceProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeValue",
+                    "printedName": "OpenTelemetryApi.AttributeValue",
+                    "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension0A8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "mangledName": "$s17ResourceExtension0A8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvp",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributeValue",
+                        "printedName": "OpenTelemetryApi.AttributeValue",
+                        "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension0A8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "mangledName": "$s17ResourceExtension0A8ProviderC10attributesSDySS16OpenTelemetryApi14AttributeValueOGvg",
+                "moduleName": "ResourceExtension",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "create",
+            "printedName": "create()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Resource",
+                "printedName": "OpenTelemetrySdk.Resource",
+                "usr": "s:16OpenTelemetrySdk8ResourceV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17ResourceExtension0A8ProviderC6create16OpenTelemetrySdk0A0VyF",
+            "mangledName": "$s17ResourceExtension0A8ProviderC6create16OpenTelemetrySdk0A0VyF",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension0A8ProviderC",
+        "mangledName": "$s17ResourceExtension0A8ProviderC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetryApi",
+        "printedName": "OpenTelemetryApi",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "ResourceExtension"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TelemetryResourceProvider",
+        "printedName": "TelemetryResourceProvider",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(source:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TelemetryResourceProvider",
+                "printedName": "ResourceExtension.TelemetryResourceProvider",
+                "usr": "s:17ResourceExtension09TelemetryA8ProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ITelemetryDataSource",
+                "printedName": "any ResourceExtension.ITelemetryDataSource",
+                "usr": "s:17ResourceExtension20ITelemetryDataSourceP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17ResourceExtension09TelemetryA8ProviderC6sourceAcA20ITelemetryDataSource_p_tcfc",
+            "mangledName": "$s17ResourceExtension09TelemetryA8ProviderC6sourceAcA20ITelemetryDataSource_p_tcfc",
+            "moduleName": "ResourceExtension",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "attributes",
+            "printedName": "attributes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AttributeValue",
+                    "printedName": "OpenTelemetryApi.AttributeValue",
+                    "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17ResourceExtension09TelemetryA8ProviderC10attributesSDySS04OpenC3Api14AttributeValueOGvp",
+            "mangledName": "$s17ResourceExtension09TelemetryA8ProviderC10attributesSDySS04OpenC3Api14AttributeValueOGvp",
+            "moduleName": "ResourceExtension",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : OpenTelemetryApi.AttributeValue]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributeValue",
+                        "printedName": "OpenTelemetryApi.AttributeValue",
+                        "usr": "s:16OpenTelemetryApi14AttributeValueO"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17ResourceExtension09TelemetryA8ProviderC10attributesSDySS04OpenC3Api14AttributeValueOGvg",
+                "mangledName": "$s17ResourceExtension09TelemetryA8ProviderC10attributesSDySS04OpenC3Api14AttributeValueOGvg",
+                "moduleName": "ResourceExtension",
+                "overriding": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17ResourceExtension09TelemetryA8ProviderC",
+        "mangledName": "$s17ResourceExtension09TelemetryA8ProviderC",
+        "moduleName": "ResourceExtension",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:17ResourceExtension0A8ProviderC",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ResourceExtension.ResourceProvider"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Instrumentation\/SDKResourceExtension\/ApplicationResourceProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 27,
+      "value": "\"ResourceExtension.ApplicationResourceProvider\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Instrumentation\/SDKResourceExtension\/DeviceResourceProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 22,
+      "value": "\"ResourceExtension.DeviceResourceProvider\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Instrumentation\/SDKResourceExtension\/OSResourceProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 18,
+      "value": "\"ResourceExtension.OSResourceProvider\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Instrumentation\/SDKResourceExtension\/TelemetryResourceProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 25,
+      "value": "\"ResourceExtension.TelemetryResourceProvider\""
+    }
+  ]
+}

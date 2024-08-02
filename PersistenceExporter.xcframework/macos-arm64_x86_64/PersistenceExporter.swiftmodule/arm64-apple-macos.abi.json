@@ -1,0 +1,1256 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersistenceLogExporterDecorator",
+        "printedName": "PersistenceLogExporterDecorator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(logRecordExporter:storageURL:exportCondition:performancePreset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistenceLogExporterDecorator",
+                "printedName": "PersistenceExporter.PersistenceLogExporterDecorator",
+                "usr": "s:19PersistenceExporter0a3LogB9DecoratorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogRecordExporter",
+                "printedName": "any OpenTelemetrySdk.LogRecordExporter",
+                "usr": "s:16OpenTelemetrySdk17LogRecordExporterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "hasDefaultArg": true,
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19PersistenceExporter0a3LogB9DecoratorC09logRecordB010storageURL15exportCondition17performancePresetAC16OpenTelemetrySdk0cfB0_p_10Foundation0H0VSbycAA0a11PerformanceL0VtKcfc",
+            "mangledName": "$s19PersistenceExporter0a3LogB9DecoratorC09logRecordB010storageURL15exportCondition17performancePresetAC16OpenTelemetrySdk0cfB0_p_10Foundation0H0VSbycAA0a11PerformanceL0VtKcfc",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "export",
+            "printedName": "export(logRecords:explicitTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExportResult",
+                "printedName": "OpenTelemetrySdk.ExportResult",
+                "usr": "s:16OpenTelemetrySdk12ExportResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenTelemetrySdk.ReadableLogRecord]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ReadableLogRecord",
+                    "printedName": "OpenTelemetrySdk.ReadableLogRecord",
+                    "usr": "s:16OpenTelemetrySdk17ReadableLogRecordV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a3LogB9DecoratorC6export10logRecords15explicitTimeout16OpenTelemetrySdk12ExportResultOSayAG08ReadableC6RecordVG_SdSgtF",
+            "mangledName": "$s19PersistenceExporter0a3LogB9DecoratorC6export10logRecords15explicitTimeout16OpenTelemetrySdk12ExportResultOSayAG08ReadableC6RecordVG_SdSgtF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shutdown",
+            "printedName": "shutdown(explicitTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a3LogB9DecoratorC8shutdown15explicitTimeoutySdSg_tF",
+            "mangledName": "$s19PersistenceExporter0a3LogB9DecoratorC8shutdown15explicitTimeoutySdSg_tF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "forceFlush",
+            "printedName": "forceFlush(explicitTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExportResult",
+                "printedName": "OpenTelemetrySdk.ExportResult",
+                "usr": "s:16OpenTelemetrySdk12ExportResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a3LogB9DecoratorC10forceFlush15explicitTimeout16OpenTelemetrySdk12ExportResultOSdSg_tF",
+            "mangledName": "$s19PersistenceExporter0a3LogB9DecoratorC10forceFlush15explicitTimeout16OpenTelemetrySdk12ExportResultOSdSg_tF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19PersistenceExporter0a3LogB9DecoratorC",
+        "mangledName": "$s19PersistenceExporter0a3LogB9DecoratorC",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LogRecordExporter",
+            "printedName": "LogRecordExporter",
+            "usr": "s:16OpenTelemetrySdk17LogRecordExporterP",
+            "mangledName": "$s16OpenTelemetrySdk17LogRecordExporterP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersistenceMetricExporterDecorator",
+        "printedName": "PersistenceMetricExporterDecorator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(metricExporter:storageURL:exportCondition:performancePreset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistenceMetricExporterDecorator",
+                "printedName": "PersistenceExporter.PersistenceMetricExporterDecorator",
+                "usr": "s:19PersistenceExporter0a6MetricB9DecoratorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MetricExporter",
+                "printedName": "any OpenTelemetrySdk.MetricExporter",
+                "usr": "s:16OpenTelemetrySdk14MetricExporterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "hasDefaultArg": true,
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19PersistenceExporter0a6MetricB9DecoratorC06metricB010storageURL15exportCondition17performancePresetAC16OpenTelemetrySdk0cB0_p_10Foundation0G0VSbycAA0a11PerformanceK0VtKcfc",
+            "mangledName": "$s19PersistenceExporter0a6MetricB9DecoratorC06metricB010storageURL15exportCondition17performancePresetAC16OpenTelemetrySdk0cB0_p_10Foundation0G0VSbycAA0a11PerformanceK0VtKcfc",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "export",
+            "printedName": "export(metrics:shouldCancel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MetricExporterResultCode",
+                "printedName": "OpenTelemetrySdk.MetricExporterResultCode",
+                "usr": "s:16OpenTelemetrySdk24MetricExporterResultCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenTelemetrySdk.Metric]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metric",
+                    "printedName": "OpenTelemetrySdk.Metric",
+                    "usr": "s:16OpenTelemetrySdk6MetricV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a6MetricB9DecoratorC6export7metrics12shouldCancel16OpenTelemetrySdk0cB10ResultCodeOSayAG0C0VG_SbycSgtF",
+            "mangledName": "$s19PersistenceExporter0a6MetricB9DecoratorC6export7metrics12shouldCancel16OpenTelemetrySdk0cB10ResultCodeOSayAG0C0VG_SbycSgtF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19PersistenceExporter0a6MetricB9DecoratorC",
+        "mangledName": "$s19PersistenceExporter0a6MetricB9DecoratorC",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MetricExporter",
+            "printedName": "MetricExporter",
+            "usr": "s:16OpenTelemetrySdk14MetricExporterP",
+            "mangledName": "$s16OpenTelemetrySdk14MetricExporterP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersistencePerformancePreset",
+        "printedName": "PersistencePerformancePreset",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19PersistenceExporter0A17PerformancePresetV7defaultACvpZ",
+            "mangledName": "$s19PersistenceExporter0A17PerformancePresetV7defaultACvpZ",
+            "moduleName": "PersistenceExporter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersistencePerformancePreset",
+                    "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                    "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV7defaultACvgZ",
+                "mangledName": "$s19PersistenceExporter0A17PerformancePresetV7defaultACvgZ",
+                "moduleName": "PersistenceExporter",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "lowRuntimeImpact",
+            "printedName": "lowRuntimeImpact",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19PersistenceExporter0A17PerformancePresetV16lowRuntimeImpactACvpZ",
+            "mangledName": "$s19PersistenceExporter0A17PerformancePresetV16lowRuntimeImpactACvpZ",
+            "moduleName": "PersistenceExporter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersistencePerformancePreset",
+                    "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                    "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV16lowRuntimeImpactACvgZ",
+                "mangledName": "$s19PersistenceExporter0A17PerformancePresetV16lowRuntimeImpactACvgZ",
+                "moduleName": "PersistenceExporter",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instantDataDelivery",
+            "printedName": "instantDataDelivery",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19PersistenceExporter0A17PerformancePresetV19instantDataDeliveryACvpZ",
+            "mangledName": "$s19PersistenceExporter0A17PerformancePresetV19instantDataDeliveryACvpZ",
+            "moduleName": "PersistenceExporter",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PersistencePerformancePreset",
+                    "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                    "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV19instantDataDeliveryACvgZ",
+                "mangledName": "$s19PersistenceExporter0A17PerformancePresetV19instantDataDeliveryACvgZ",
+                "moduleName": "PersistenceExporter",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0A17PerformancePresetV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19PersistenceExporter0A17PerformancePresetV2eeoiySbAC_ACtFZ",
+            "moduleName": "PersistenceExporter",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19PersistenceExporter0A17PerformancePresetV",
+        "mangledName": "$s19PersistenceExporter0A17PerformancePresetV",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OpenTelemetrySdk",
+        "printedName": "OpenTelemetrySdk",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PersistenceSpanExporterDecorator",
+        "printedName": "PersistenceSpanExporterDecorator",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(spanExporter:storageURL:exportCondition:performancePreset:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PersistenceSpanExporterDecorator",
+                "printedName": "PersistenceExporter.PersistenceSpanExporterDecorator",
+                "usr": "s:19PersistenceExporter0a4SpanB9DecoratorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SpanExporter",
+                "printedName": "any OpenTelemetrySdk.SpanExporter",
+                "usr": "s:16OpenTelemetrySdk12SpanExporterP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> Swift.Bool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "hasDefaultArg": true
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PersistencePerformancePreset",
+                "printedName": "PersistenceExporter.PersistencePerformancePreset",
+                "hasDefaultArg": true,
+                "usr": "s:19PersistenceExporter0A17PerformancePresetV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19PersistenceExporter0a4SpanB9DecoratorC04spanB010storageURL15exportCondition17performancePresetAC16OpenTelemetrySdk0cB0_p_10Foundation0G0VSbycAA0a11PerformanceK0VtKcfc",
+            "mangledName": "$s19PersistenceExporter0a4SpanB9DecoratorC04spanB010storageURL15exportCondition17performancePresetAC16OpenTelemetrySdk0cB0_p_10Foundation0G0VSbycAA0a11PerformanceK0VtKcfc",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "export",
+            "printedName": "export(spans:explicitTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpanExporterResultCode",
+                "printedName": "OpenTelemetrySdk.SpanExporterResultCode",
+                "usr": "s:16OpenTelemetrySdk22SpanExporterResultCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenTelemetrySdk.SpanData]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SpanData",
+                    "printedName": "OpenTelemetrySdk.SpanData",
+                    "usr": "s:16OpenTelemetrySdk8SpanDataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a4SpanB9DecoratorC6export5spans15explicitTimeout16OpenTelemetrySdk0cB10ResultCodeOSayAG0C4DataVG_SdSgtF",
+            "mangledName": "$s19PersistenceExporter0a4SpanB9DecoratorC6export5spans15explicitTimeout16OpenTelemetrySdk0cB10ResultCodeOSayAG0C4DataVG_SdSgtF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush(explicitTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpanExporterResultCode",
+                "printedName": "OpenTelemetrySdk.SpanExporterResultCode",
+                "usr": "s:16OpenTelemetrySdk22SpanExporterResultCodeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a4SpanB9DecoratorC5flush15explicitTimeout16OpenTelemetrySdk0cB10ResultCodeOSdSg_tF",
+            "mangledName": "$s19PersistenceExporter0a4SpanB9DecoratorC5flush15explicitTimeout16OpenTelemetrySdk0cB10ResultCodeOSdSg_tF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shutdown",
+            "printedName": "shutdown(explicitTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19PersistenceExporter0a4SpanB9DecoratorC8shutdown15explicitTimeoutySdSg_tF",
+            "mangledName": "$s19PersistenceExporter0a4SpanB9DecoratorC8shutdown15explicitTimeoutySdSg_tF",
+            "moduleName": "PersistenceExporter",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19PersistenceExporter0a4SpanB9DecoratorC",
+        "mangledName": "$s19PersistenceExporter0a4SpanB9DecoratorC",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SpanExporter",
+            "printedName": "SpanExporter",
+            "usr": "s:16OpenTelemetrySdk12SpanExporterP",
+            "mangledName": "$s16OpenTelemetrySdk12SpanExporterP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PersistenceExporter",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Export\/DataExportWorker.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 39,
+      "value": "\"com.otel.persistence.dataExportWorker\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceExporterDecorator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1973,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceExporterDecorator.swift",
+      "kind": "StringLiteral",
+      "offset": 3800,
+      "length": 3,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceExporterDecorator.swift",
+      "kind": "StringLiteral",
+      "offset": 3851,
+      "length": 7,
+      "value": "\"null]\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceExporterDecorator.swift",
+      "kind": "StringLiteral",
+      "offset": 3909,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceLogExporterDecorator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1057,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceMetricExporterDecorator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1063,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3820,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3824,
+      "length": 5,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3832,
+      "length": 5,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3872,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3878,
+      "length": 5,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3886,
+      "length": 5,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 3931,
+      "length": 4,
+      "value": "4.75"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 3964,
+      "length": 4,
+      "value": "4.75"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 3971,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4041,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4046,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4051,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4088,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4116,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4122,
+      "length": 5,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4164,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4218,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4291,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4318,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4345,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 4380,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 4777,
+      "length": 4,
+      "value": "2.75"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 4810,
+      "length": 4,
+      "value": "2.75"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 4817,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5044,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 5097,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5202,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5229,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5256,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistencePerformancePreset.swift",
+      "kind": "FloatLiteral",
+      "offset": 5290,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/PersistenceSpanExporterDecorator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1031,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/File.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1321,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/FileReader.swift",
+      "kind": "Array",
+      "offset": 659,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/FileWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 33,
+      "value": "\"com.otel.persistence.filewriter\""
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/FileWriter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/FilesOrchestrator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 801,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/FilesOrchestrator.swift",
+      "kind": "Array",
+      "offset": 3498,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/niranjan\/Workspace\/opentelemetry-swift\/Sources\/Exporters\/Persistence\/Storage\/FilesOrchestrator.swift",
+      "kind": "Array",
+      "offset": 4460,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -package-name opentelemetry_swift -module-name ResourceExtension
+import AppKit
+import Foundation
+import OpenTelemetryApi
+import OpenTelemetrySdk
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class ApplicationResourceProvider : ResourceExtension.ResourceProvider {
+  public init(source: any ResourceExtension.IApplicationDataSource)
+  override public var attributes: [Swift.String : OpenTelemetryApi.AttributeValue] {
+    get
+  }
+  @objc deinit
+}
+public class ApplicationDataSource : ResourceExtension.IApplicationDataSource {
+  public init()
+  public var name: Swift.String? {
+    get
+  }
+  public var identifier: Swift.String? {
+    get
+  }
+  public var version: Swift.String? {
+    get
+  }
+  public var build: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+public class DeviceDataSource : ResourceExtension.IDeviceDataSource {
+  public init()
+  public var model: Swift.String? {
+    get
+  }
+  public var identifier: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+public protocol IApplicationDataSource {
+  var name: Swift.String? { get }
+  var identifier: Swift.String? { get }
+  var version: Swift.String? { get }
+  var build: Swift.String? { get }
+}
+public protocol IDeviceDataSource {
+  var identifier: Swift.String? { get }
+  var model: Swift.String? { get }
+}
+public protocol IOperatingSystemDataSource {
+  var type: Swift.String { get }
+  var description: Swift.String { get }
+  var name: Swift.String { get }
+  var version: Swift.String { get }
+}
+public protocol ITelemetryDataSource {
+  var version: Swift.String? { get }
+  var name: Swift.String { get }
+  var language: Swift.String { get }
+}
+public class OperatingSystemDataSource : ResourceExtension.IOperatingSystemDataSource {
+  public init()
+  public var description: Swift.String {
+    get
+  }
+  public var type: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var version: Swift.String {
+    get
+  }
+  @objc deinit
+}
+public class TelemetryDataSource : ResourceExtension.ITelemetryDataSource {
+  public init()
+  public var language: Swift.String {
+    get
+  }
+  public var name: Swift.String {
+    get
+  }
+  public var version: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+public class DefaultResources {
+  public init()
+  public func get() -> OpenTelemetrySdk.Resource
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class DeviceResourceProvider : ResourceExtension.ResourceProvider {
+  public init(source: any ResourceExtension.IDeviceDataSource)
+  override public var attributes: [Swift.String : OpenTelemetryApi.AttributeValue] {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class OSResourceProvider : ResourceExtension.ResourceProvider {
+  public init(source: any ResourceExtension.IOperatingSystemDataSource)
+  override public var attributes: [Swift.String : OpenTelemetryApi.AttributeValue] {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ResourceProvider {
+  public var attributes: [Swift.String : OpenTelemetryApi.AttributeValue] {
+    get
+  }
+  public func create() -> OpenTelemetrySdk.Resource
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TelemetryResourceProvider : ResourceExtension.ResourceProvider {
+  public init(source: any ResourceExtension.ITelemetryDataSource)
+  override public var attributes: [Swift.String : OpenTelemetryApi.AttributeValue] {
+    get
+  }
+  @objc deinit
+}

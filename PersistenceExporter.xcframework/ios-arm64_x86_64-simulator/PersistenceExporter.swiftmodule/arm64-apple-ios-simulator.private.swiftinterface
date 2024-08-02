@@ -1,0 +1,34 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -package-name opentelemetry_swift -module-name PersistenceExporter
+import Foundation
+import OpenTelemetrySdk
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public class PersistenceLogExporterDecorator : OpenTelemetrySdk.LogRecordExporter {
+  public init(logRecordExporter: any OpenTelemetrySdk.LogRecordExporter, storageURL: Foundation.URL, exportCondition: @escaping () -> Swift.Bool = { true }, performancePreset: PersistenceExporter.PersistencePerformancePreset = .default) throws
+  public func export(logRecords: [OpenTelemetrySdk.ReadableLogRecord], explicitTimeout: Foundation.TimeInterval? = nil) -> OpenTelemetrySdk.ExportResult
+  public func shutdown(explicitTimeout: Foundation.TimeInterval? = nil)
+  public func forceFlush(explicitTimeout: Foundation.TimeInterval? = nil) -> OpenTelemetrySdk.ExportResult
+  @objc deinit
+}
+public class PersistenceMetricExporterDecorator : OpenTelemetrySdk.MetricExporter {
+  public init(metricExporter: any OpenTelemetrySdk.MetricExporter, storageURL: Foundation.URL, exportCondition: @escaping () -> Swift.Bool = { true }, performancePreset: PersistenceExporter.PersistencePerformancePreset = .default) throws
+  public func export(metrics: [OpenTelemetrySdk.Metric], shouldCancel: (() -> Swift.Bool)?) -> OpenTelemetrySdk.MetricExporterResultCode
+  @objc deinit
+}
+public struct PersistencePerformancePreset : Swift.Equatable {
+  public static let `default`: PersistenceExporter.PersistencePerformancePreset
+  public static let lowRuntimeImpact: PersistenceExporter.PersistencePerformancePreset
+  public static let instantDataDelivery: PersistenceExporter.PersistencePerformancePreset
+  public static func == (a: PersistenceExporter.PersistencePerformancePreset, b: PersistenceExporter.PersistencePerformancePreset) -> Swift.Bool
+}
+public class PersistenceSpanExporterDecorator : OpenTelemetrySdk.SpanExporter {
+  public init(spanExporter: any OpenTelemetrySdk.SpanExporter, storageURL: Foundation.URL, exportCondition: @escaping () -> Swift.Bool = { true }, performancePreset: PersistenceExporter.PersistencePerformancePreset = .default) throws
+  public func export(spans: [OpenTelemetrySdk.SpanData], explicitTimeout: Foundation.TimeInterval?) -> OpenTelemetrySdk.SpanExporterResultCode
+  public func flush(explicitTimeout: Foundation.TimeInterval?) -> OpenTelemetrySdk.SpanExporterResultCode
+  public func shutdown(explicitTimeout: Foundation.TimeInterval?)
+  @objc deinit
+}
